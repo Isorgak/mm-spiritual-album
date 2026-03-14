@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Trust in the Lord | Spiritual Album - St. Joseph La Salle Keren Choir</title>
+    <meta name="description" content="A spiritual music album by the St. Joseph La Salle Keren Choir from Eritrea. 11 sacred songs of faith, hope, and devotion.">
+    
+    <!-- Google Fonts - Modern Sans-Serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cream: '#efebe7',
+                        'cream-dark': '#e8e4df',
+                        gold: '#b8941f',
+                        'gold-dark': '#9a7a18',
+                        terracotta: '#a67c52',
+                        rust: '#8b5a2b',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Plus Jakarta Sans', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        /* Base Styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #efebe7;
+            color: #000000;
+            line-height: 1.7;
+            font-size: 16px;
+            overflow-x: hidden;
+        }
+        
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-weight: 600;
+            color: #000000;
+            line-height: 1.3;
+        }
+        h1 { font-size: 3rem; }
+        h2 { font-size: 2.25rem; }
+        h3 { font-size: 1.5rem; }
+        h4 { font-size: 1.25rem; }
+        
+        p { color: #1a1a1a; font-size: 1rem; line-height: 1.8; }
+        
+        .font-tigrinya {
+            font-family: 'Playfair Display', serif;
+            font-weight: 500;
+        }
+        
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #efebe7; }
+        ::-webkit-scrollbar-thumb { background: #b8941f; border-radius: 4px; }
+        
+        /* Selection */
+        ::selection { background: rgba(184, 148, 31, 0.3); color: #000000; }
+        
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .animate-float { animation: float 4s ease-in-out infinite; }
+        
+        /* Buttons */
+        .btn-primary {
+            background: #000000;
+            color: #ffffff;
+            padding: 14px 32px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-weight: 600;
+            font-size: 0.875rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .btn-primary:hover { background: #b8941f; transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); }
+        
+        .btn-outline {
+            border: 2px solid #000000;
+            color: #000000;
+            padding: 12px 30px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-weight: 600;
+            font-size: 0.875rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: transparent;
+            cursor: pointer;
+        }
+        .btn-outline:hover { background: #000000; color: #ffffff; }
+        
+        /* Section Divider */
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.15), transparent);
+            margin: 0 auto;
+            max-width: 80%;
+        }
+        
+        /* Navigation */
+        .nav-scrolled {
+            background: rgba(239, 235, 231, 0.98);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+        }
+        
+        /* Form Styles */
+        .form-input {
+            width: 100%;
+            padding: 14px 18px;
+            background: #ffffff;
+            border: 2px solid rgba(0, 0, 0, 0.1);
+            border-radius: 6px;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            color: #000000;
+            transition: all 0.3s ease;
+        }
+        .form-input:focus { outline: none; border-color: #b8941f; box-shadow: 0 0 0 4px rgba(184, 148, 31, 0.1); }
+        .form-input::placeholder { color: #666666; }
+        
+        /* Reveal Animation */
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+        
+        /* Mobile Menu */
+        .mobile-menu {
+            position: fixed;
+            inset: 0;
+            background: rgba(239, 235, 231, 0.98);
+            z-index: 999;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+        }
+        .mobile-menu.active { display: flex; }
+        
+        /* Audio Player Styles */
+        .audio-player {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 16px;
+            background: #ffffff;
+            border-radius: 8px;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+        .audio-player:hover { border-color: #b8941f; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); }
+        
+        .play-btn {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: #000000;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            flex-shrink: 0;
+        }
+        .play-btn:hover { background: #b8941f; transform: scale(1.05); }
+        .play-btn.playing { background: #b8941f; }
+        
+        .progress-bar {
+            flex: 1;
+            height: 6px;
+            background: rgba(0, 0, 0, 0.1);
+            border-radius: 3px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background: #b8941f;
+            border-radius: 3px;
+            width: 0%;
+            transition: width 0.1s linear;
+        }
+        
+        /* Video Modal */
+        .video-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.95);
+            z-index: 1000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .video-modal.active { display: flex; }
+        
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 1000px;
+            aspect-ratio: 16/9;
+        }
+        
+        .video-container iframe {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+        }
+        
+        .close-video-btn {
+            position: absolute;
+            top: -50px;
+            right: 0;
+            width: 44px;
+            height: 44px;
+            background: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+        }
+        .close-video-btn:hover { background: #b8941f; }
+        .close-video-btn:hover svg { color: #ffffff; }
+        
+        /* Lightbox */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.95);
+            z-index: 1000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .lightbox.active { display: flex; }
+        
+        /* Toast */
+        #toast {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 1001;
+            display: none;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.75rem; }
+            h3 { font-size: 1.25rem; }
+            .btn-primary, .btn-outline { padding: 12px 24px; font-size: 0.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="fixed inset-0 z-[100] bg-cream flex flex-col items-center justify-center transition-opacity duration-500">
+        <div class="w-16 h-16 border-4 border-black/10 border-t-black rounded-full animate-spin mb-6"></div>
+        <p class="font-display text-black text-sm tracking-[0.2em] uppercase font-medium">Loading</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="#hero" class="flex items-center gap-3 group">
+                    <div class="w-10 h-10 rounded-full border-2 border-black/30 flex items-center justify-center group-hover:border-black transition-colors">
+                        <i data-lucide="music" class="w-5 h-5 text-black"></i>
+                    </div>
+                    <span class="font-display text-black text-sm font-semibold tracking-wide hidden sm:block">I Trust in the Lord</span>
+                </a>
+
+                <div class="hidden lg:flex items-center gap-1">
+                    <a href="#hero" class="px-4 py-2 text-black/70 hover:text-black text-sm font-medium tracking-wide transition-colors">Home</a>
+                    <a href="#trailer" class="px-4 py-2 text-black/70 hover:text-black text-sm font-medium tracking-wide transition-colors">Trailer</a>
+                    <a href="#about" class="px-4 py-2 text-black/70 hover:text-black text-sm font-medium tracking-wide transition-colors">About</a>
+                    <a href="#choir" class="px-4 py-2 text-black/70 hover:text-black text-sm font-medium tracking-wide transition-colors">Choir</a>
+                    <a href="#tracks" class="px-4 py-2 text-black/70 hover:text-black text-sm font-medium tracking-wide transition-colors">Tracks</a>
+                    <a href="#gallery" class="px-4 py-2 text-black/70 hover:text-black text-sm font-medium tracking-wide transition-colors">Gallery</a>
+                    <a href="#contact" class="px-4 py-2 text-black/70 hover:text-black text-sm font-medium tracking-wide transition-colors">Contact</a>
+                </div>
+
+                <a href="https://www.youtube.com/@mezmurcatholic" target="_blank" rel="noopener" class="hidden sm:flex items-center gap-2 px-5 py-2.5 bg-black text-white text-sm font-medium tracking-wide hover:bg-gold transition-colors rounded-md">
+                    <i data-lucide="youtube" class="w-4 h-4"></i>
+                    Subscribe
+                </a>
+
+                <button id="menu-toggle" class="lg:hidden p-2 text-black hover:bg-black/5 rounded-lg transition-colors">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+        <button id="menu-close" class="absolute top-6 right-6 p-2 text-black hover:bg-black/5 rounded-lg">
+            <i data-lucide="x" class="w-6 h-6"></i>
+        </button>
+        <a href="#hero" class="mobile-nav-link font-display text-2xl text-black font-semibold hover:text-gold transition-colors">Home</a>
+        <a href="#trailer" class="mobile-nav-link font-display text-2xl text-black font-semibold hover:text-gold transition-colors">Trailer</a>
+        <a href="#about" class="mobile-nav-link font-display text-2xl text-black font-semibold hover:text-gold transition-colors">About</a>
+        <a href="#choir" class="mobile-nav-link font-display text-2xl text-black font-semibold hover:text-gold transition-colors">Choir</a>
+        <a href="#tracks" class="mobile-nav-link font-display text-2xl text-black font-semibold hover:text-gold transition-colors">Tracks</a>
+        <a href="#gallery" class="mobile-nav-link font-display text-2xl text-black font-semibold hover:text-gold transition-colors">Gallery</a>
+        <a href="#contact" class="mobile-nav-link font-display text-2xl text-black font-semibold hover:text-gold transition-colors">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+        <div class="absolute inset-0">
+            <img src="USB Card Front_1 FINAL3.jpg" alt="Album Cover" class="w-full h-full object-cover opacity-80">
+            <div class="absolute inset-0 bg-gradient-to-b from-cream/80 via-cream/60 to-cream"></div>
+        </div>
+
+        <div class="absolute inset-0 pointer-events-none overflow-hidden">
+            <div class="particle absolute w-2 h-2 bg-gold/30 rounded-full" style="left: 10%; top: 20%; animation: float 6s ease-in-out infinite;"></div>
+            <div class="particle absolute w-1.5 h-1.5 bg-gold/40 rounded-full" style="left: 80%; top: 30%; animation: float 5s ease-in-out infinite 1s;"></div>
+            <div class="particle absolute w-2 h-2 bg-terracotta/30 rounded-full" style="left: 20%; top: 70%; animation: float 7s ease-in-out infinite 0.5s;"></div>
+        </div>
+
+        <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
+            <div class="reveal inline-block px-5 py-2 mb-8 border-2 border-black/20 rounded-full bg-white/90 backdrop-blur-sm">
+                <span class="font-display text-black text-xs tracking-[0.2em] uppercase font-semibold">Vol. #2 — 2026</span>
+            </div>
+
+            <h1 class="reveal font-tigrinya text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-black mb-4" style="transition-delay: 0.1s;">
+                ኣብ እግዚብሄር'ዪ ተሰፋይ
+            </h1>
+
+            <h2 class="reveal font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-black font-bold mb-6" style="transition-delay: 0.2s;">
+                I Trust in the Lord
+            </h2>
+
+            <p class="reveal max-w-2xl mx-auto text-black/80 text-base sm:text-lg md:text-xl leading-relaxed mb-10 font-medium" style="transition-delay: 0.3s;">
+                A new spiritual music album inspired by faith, prayer, and the Catholic tradition of Eritrea.
+                <span class="block text-black/60 font-display text-sm font-semibold tracking-wide mt-3 uppercase">Spiritual Songs by the St. Joseph La Salle Keren Choir</span>
+            </p>
+
+            <div class="reveal flex flex-col sm:flex-row gap-4 justify-center" style="transition-delay: 0.4s;">
+                <button onclick="openVideoModal()" class="btn-primary">
+                    <i data-lucide="play" class="w-5 h-5"></i>
+                    Watch Trailer
+                </button>
+                <a href="#tracks" class="btn-outline">
+                    <i data-lucide="music" class="w-5 h-5"></i>
+                    Explore Songs
+                </a>
+            </div>
+
+            <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
+                <span class="text-black/40 text-xs tracking-wider uppercase font-medium">Scroll</span>
+                <i data-lucide="chevron-down" class="w-5 h-5 text-black/40"></i>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider my-16"></div>
+
+    <!-- Video Trailer Section -->
+    <section id="trailer" class="py-20 md:py-28 relative">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <span class="inline-block px-5 py-2 mb-6 border-2 border-black/10 rounded-full bg-white/80">
+                    <span class="font-display text-black/60 text-xs tracking-[0.2em] uppercase font-semibold">Experience the Journey</span>
+                </span>
+                <h2 class="font-display text-3xl sm:text-4xl md:text-5xl text-black font-bold mb-4">Official Album Announcement</h2>
+                <p class="max-w-2xl mx-auto text-black/70 text-base md:text-lg font-medium">
+                    Watch the story behind the music and discover the spiritual message that inspired this collection of sacred songs.
+                </p>
+            </div>
+
+            <!-- Video Preview Card -->
+            <div class="reveal relative mx-auto max-w-4xl">
+                <div class="relative aspect-video bg-black/5 rounded-xl overflow-hidden shadow-2xl border-2 border-black/5 cursor-pointer group" onclick="openVideoModal()">
+                    <img src="ArtWork 500X500 pix.jpg" alt="Video Thumbnail" class="w-full h-full object-cover opacity-90">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
+                    
+                    <!-- Play Button -->
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="relative">
+                            <div class="absolute inset-0 bg-white/20 rounded-full animate-ping"></div>
+                            <div class="relative w-20 h-20 md:w-24 md:h-24 bg-white rounded-full flex items-center justify-center group-hover:scale-110 transition-transform shadow-xl">
+                                <i data-lucide="play" class="w-8 h-8 md:w-10 md:h-10 text-black ml-1"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Video Info -->
+                    <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="font-display text-white/80 text-sm tracking-wider uppercase font-semibold mb-1">Official Trailer</p>
+                        <h3 class="font-display text-xl md:text-2xl text-white font-bold">I Trust in the Lord — Album Announcement</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center reveal">
+                <p class="text-black/50 text-sm mb-4 font-medium">Available Soon On</p>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <span class="px-5 py-2 border-2 border-black/10 rounded-full text-black/70 text-sm font-medium hover:border-black hover:text-black transition-colors cursor-pointer bg-white/80">YouTube</span>
+                    <span class="px-5 py-2 border-2 border-black/10 rounded-full text-black/70 text-sm font-medium hover:border-black hover:text-black transition-colors cursor-pointer bg-white/80">Spotify</span>
+                    <span class="px-5 py-2 border-2 border-black/10 rounded-full text-black/70 text-sm font-medium hover:border-black hover:text-black transition-colors cursor-pointer bg-white/80">Apple Music</span>
+                    <span class="px-5 py-2 border-2 border-black/10 rounded-full text-black/70 text-sm font-medium hover:border-black hover:text-black transition-colors cursor-pointer bg-white/80">Amazon Music</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div id="video-modal" class="video-modal" onclick="closeVideoModal()">
+        <div class="video-container" onclick="event.stopPropagation()">
+            <button class="close-video-btn" onclick="closeVideoModal()">
+                <i data-lucide="x" class="w-6 h-6 text-black"></i>
+            </button>
+            <iframe 
+                id="youtube-player"
+                src="" 
+                title="Album Announcement"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+    <div class="section-divider my-16"></div>
+
+    <!-- About Album Section -->
+    <section id="about" class="py-20 md:py-28 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+                <div class="reveal relative">
+                    <div class="relative aspect-square max-w-lg mx-auto">
+                        <div class="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-black/5">
+                            <img src="ArtWork 500X500 pix.jpg" alt="Album Cover" class="w-full h-full object-cover">
+                        </div>
+                        <div class="absolute -inset-4 border-2 border-black/10 rounded-3xl pointer-events-none"></div>
+                        <div class="absolute -bottom-4 -right-4 px-6 py-3 bg-black text-white rounded-lg shadow-xl">
+                            <span class="font-display font-bold text-lg">Vol. #2</span>
+                            <span class="block text-sm opacity-80">2026</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reveal">
+                    <span class="inline-block px-5 py-2 mb-6 border-2 border-black/10 rounded-full bg-white/80">
+                        <span class="font-display text-black/60 text-xs tracking-[0.2em] uppercase font-semibold">About the Album</span>
+                    </span>
+
+                    <h2 class="font-display text-3xl sm:text-4xl md:text-5xl text-black font-bold mb-6">A Spiritual Journey of Faith</h2>
+
+                    <div class="space-y-4 text-black/80 leading-relaxed mb-8 font-medium">
+                        <p>
+                            <span class="text-black font-bold">"I Trust in the Lord"</span> is a spiritual music album 
+                            performed by the St. Joseph La Salle Keren Choir in Eritrea. This collection represents 
+                            the deep faith and devotion of the Catholic community in Keren.
+                        </p>
+                        <p>
+                            Inspired by the prayerful life of the Church and the rich spiritual tradition of 
+                            Eritrean Catholic communities, these songs carry powerful messages of faith, hope, 
+                            mercy, and devotion.
+                        </p>
+                        <p>
+                            The album invites listeners around the world to experience sacred music rooted in 
+                            prayer and worship, connecting hearts across cultures through the universal language 
+                            of spiritual song.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-wrap gap-4">
+                        <div class="px-5 py-3 bg-white rounded-lg border-2 border-black/5 shadow-sm">
+                            <span class="text-black/50 text-xs uppercase tracking-wider font-semibold">Album Series</span>
+                            <p class="text-black font-bold">Vol. #2 — 2026</p>
+                        </div>
+                        <div class="px-5 py-3 bg-white rounded-lg border-2 border-black/5 shadow-sm">
+                            <span class="text-black/50 text-xs uppercase tracking-wider font-semibold">Genre</span>
+                            <p class="text-black font-bold">Spiritual Catholic</p>
+                        </div>
+                        <div class="px-5 py-3 bg-white rounded-lg border-2 border-black/5 shadow-sm">
+                            <span class="text-black/50 text-xs uppercase tracking-wider font-semibold">Tracks</span>
+                            <p class="text-black font-bold">11 Songs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-20 reveal">
+                <div class="group p-6 bg-white rounded-xl border-2 border-black/5 hover:border-black/20 transition-all duration-300 hover:-translate-y-1 shadow-sm">
+                    <div class="w-12 h-12 mb-4 flex items-center justify-center bg-black/5 rounded-lg group-hover:bg-black group-hover:text-white transition-colors">
+                        <i data-lucide="disc" class="w-6 h-6 text-black group-hover:text-white"></i>
+                    </div>
+                    <h3 class="font-display text-black text-lg font-bold mb-2">11 Sacred Tracks</h3>
+                    <p class="text-black/60 text-sm font-medium">A collection of spiritual songs inspired by prayer and devotion</p>
+                </div>
+                <div class="group p-6 bg-white rounded-xl border-2 border-black/5 hover:border-black/20 transition-all duration-300 hover:-translate-y-1 shadow-sm">
+                    <div class="w-12 h-12 mb-4 flex items-center justify-center bg-black/5 rounded-lg group-hover:bg-black group-hover:text-white transition-colors">
+                        <i data-lucide="music" class="w-6 h-6 text-black group-hover:text-white"></i>
+                    </div>
+                    <h3 class="font-display text-black text-lg font-bold mb-2">Traditional Melodies</h3>
+                    <p class="text-black/60 text-sm font-medium">Rooted in the rich musical heritage of Eritrean Catholic tradition</p>
+                </div>
+                <div class="group p-6 bg-white rounded-xl border-2 border-black/5 hover:border-black/20 transition-all duration-300 hover:-translate-y-1 shadow-sm">
+                    <div class="w-12 h-12 mb-4 flex items-center justify-center bg-black/5 rounded-lg group-hover:bg-black group-hover:text-white transition-colors">
+                        <i data-lucide="heart" class="w-6 h-6 text-black group-hover:text-white"></i>
+                    </div>
+                    <h3 class="font-display text-black text-lg font-bold mb-2">Messages of Faith</h3>
+                    <p class="text-black/60 text-sm font-medium">Songs carrying hope, mercy, love, and devotion</p>
+                </div>
+                <div class="group p-6 bg-white rounded-xl border-2 border-black/5 hover:border-black/20 transition-all duration-300 hover:-translate-y-1 shadow-sm">
+                    <div class="w-12 h-12 mb-4 flex items-center justify-center bg-black/5 rounded-lg group-hover:bg-black group-hover:text-white transition-colors">
+                        <i data-lucide="church" class="w-6 h-6 text-black group-hover:text-white"></i>
+                    </div>
+                    <h3 class="font-display text-black text-lg font-bold mb-2">Sacred Worship</h3>
+                    <p class="text-black/60 text-sm font-medium">Music created for prayer and spiritual reflection</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider my-16"></div>
+
+    <!-- Choir Section -->
+    <section id="choir" class="py-20 md:py-28 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <span class="inline-block px-5 py-2 mb-6 border-2 border-black/10 rounded-full bg-white/80">
+                    <span class="font-display text-black/60 text-xs tracking-[0.2em] uppercase font-semibold">The Voices of Faith</span>
+                </span>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+                <div class="reveal order-2 lg:order-1">
+                    <div class="mb-8">
+                        <h2 class="font-tigrinya text-2xl sm:text-3xl md:text-4xl text-black font-medium mb-2">
+                            ብላሰላውያን መዘምራን ቅዱስ ዮሴፍ ከረን
+                        </h2>
+                        <h3 class="font-display text-xl sm:text-2xl text-black/70 font-bold">
+                            St. Joseph La Salle Keren Choir
+                        </h3>
+                    </div>
+
+                    <div class="space-y-4 text-black/80 leading-relaxed mb-8 font-medium">
+                        <p>
+                            The St. Joseph La Salle Keren Choir serves the Church through spiritual music 
+                            and worship, sharing messages of faith and devotion through song. Based in Keren, 
+                            Eritrea, the choir has been a cornerstone of the Catholic community's spiritual life.
+                        </p>
+                        <p>
+                            Their music reflects the deep spiritual traditions of Eritrean Catholicism, 
+                            blending ancient liturgical melodies with contemporary expressions of faith. 
+                            Each performance is an offering of praise and a testament to their devotion.
+                        </p>
+                    </div>
+
+                    <div class="flex items-center gap-3 mb-8 text-black/70">
+                        <i data-lucide="map-pin" class="w-5 h-5"></i>
+                        <span class="font-display text-sm font-semibold tracking-wide">Keren, Eritrea</span>
+                    </div>
+
+                    <blockquote class="relative pl-6 border-l-4 border-black">
+                        <p class="font-tigrinya italic text-lg text-black/90">
+                            "መንፈሳዊ መዝሙር ብላሰላውያን ከረን"
+                        </p>
+                        <p class="text-black/50 text-sm mt-1 font-medium">
+                            Spiritual Songs by the La Salle Keren Choir
+                        </p>
+                    </blockquote>
+                </div>
+
+                <div class="reveal order-1 lg:order-2 relative">
+                    <div class="relative">
+                        <div class="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-black/5">
+                            <img src="USB Card Back.jpg" alt="St. Joseph La Salle Keren Choir" class="w-full h-auto object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                            <div class="absolute bottom-0 left-0 right-0 p-6">
+                                <p class="font-display text-white/90 text-sm tracking-wider uppercase font-semibold mb-1">St. Joseph La Salle Keren Choir</p>
+                                <p class="text-white/70 text-sm font-medium">Keren, Eritrea</p>
+                            </div>
+                        </div>
+                        <div class="absolute -top-4 -right-4 w-24 h-24 border-2 border-black/10 rounded-full"></div>
+                        <div class="absolute -bottom-4 -left-4 w-32 h-32 border-2 border-black/5 rounded-full"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reveal grid grid-cols-3 gap-6 mt-16 max-w-2xl mx-auto">
+                <div class="text-center p-6 bg-white rounded-xl border-2 border-black/5 shadow-sm">
+                    <i data-lucide="users" class="w-8 h-8 text-black mx-auto mb-3"></i>
+                    <p class="font-display text-2xl md:text-3xl text-black font-bold mb-1">20+</p>
+                    <p class="text-black/50 text-xs uppercase tracking-wider font-semibold">Choir Members</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-xl border-2 border-black/5 shadow-sm">
+                    <i data-lucide="church" class="w-8 h-8 text-black mx-auto mb-3"></i>
+                    <p class="font-display text-2xl md:text-3xl text-black font-bold mb-1">10+</p>
+                    <p class="text-black/50 text-xs uppercase tracking-wider font-semibold">Years of Service</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-xl border-2 border-black/5 shadow-sm">
+                    <i data-lucide="heart" class="w-8 h-8 text-black mx-auto mb-3"></i>
+                    <p class="font-display text-2xl md:text-3xl text-black font-bold mb-1">Countless</p>
+                    <p class="text-black/50 text-xs uppercase tracking-wider font-semibold">Lives Touched</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider my-16"></div>
+
+    <!-- Track List Section -->
+    <section id="tracks" class="py-20 md:py-28 relative">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 reveal">
+                <span class="inline-block px-5 py-2 mb-6 border-2 border-black/10 rounded-full bg-white/80">
+                    <span class="font-display text-black/60 text-xs tracking-[0.2em] uppercase font-semibold">Track List</span>
+                </span>
+                <h2 class="font-display text-3xl sm:text-4xl md:text-5xl text-black font-bold mb-4">11 Sacred Songs</h2>
+                <p class="max-w-2xl mx-auto text-black/70 text-base md:text-lg font-medium">
+                    Experience the spiritual journey through these carefully crafted songs of faith, hope, and devotion.
+                </p>
+            </div>
+
+            <div class="space-y-4 reveal">
+                <!-- Track 1 -->
+                <div class="audio-player" data-track="1">
+                    <button class="play-btn" onclick="togglePlay(1)">
+                        <i data-lucide="play" class="w-5 h-5 play-icon"></i>
+                        <i data-lucide="pause" class="w-5 h-5 pause-icon hidden"></i>
+                    </button>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-3 mb-2">
+                            <span class="font-display text-black/40 text-sm font-bold w-6">01</span>
+                            <h4 class="font-tigrinya text-black text-lg font-medium truncate">ከየባረኸካኒ ኣይሓገካን'የ</h4>
+                        </div>
+                        <p class="text-black/60 text-sm font-medium ml-9">I Have Not Helped You Without Blessing</p>
+                    </div>
+                    <span class="text-black/40 text-sm font-medium time-display">0:00 / 0:30</span>
+                    <div class="progress-bar" onclick="seek(event, 1)">
+                        <div class="progress-fill" id="progress-1"></div>
+                    </div>
+                    <audio id="audio-1" preload="metadata">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <!-- Track 2 -->
+                <div class="audio-player" data-track="2">
+                    <button class="play-btn" onclick="togglePlay(2)">
+                        <i data-lucide="play" class="w-5 h-5 play-icon"></i>
+                        <i data-lucide="pause" class="w-5 h-5 pause-icon hidden"></i>
+                    </button>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-3 mb-2">
+                            <span class="font-display text-black/40 text-sm font-bold w-6">02</span>
+                            <h4 class="font-tigrinya text-black text-lg font-medium truncate">ህንጻ እግዚኣብሄር</h4>
+                        </div>
+                        <p class="text-black/60 text-sm font-medium ml-9">The Building of the Lord</p>
+                    </div>
+                    <span class="text-black/40 text-sm font-medium time-display">0:00 / 0:30</span>
+                    <div class="progress-bar" onclick="seek(event, 2)">
+                        <div class="progress-fill" id="progress-2"></div>
+                    </div>
+                    <audio id="audio-2" preload="metadata">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <!-- Track 3 -->
+                <div class="audio-player" data-track="3">
+                    <button class="play-btn" onclick="togglePlay(3)">
+                        <i data-lucide="play" class="w-5 h-5 play-icon"></i>
+                        <i data-lucide="pause" class="w-5 h-5 pause-icon hidden"></i>
+                    </button>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-3 mb-2">
+                            <span class="font-display text-black/40 text-sm font-bold w-6">03</span>
+                            <h4 class="font-tigrinya text-black text-lg font-medium truncate">ከቢሩ ዝነበር</h4>
+                        </div>
+                        <p class="text-black/60 text-sm font-medium ml-9">The One Who Was Honored</p>
+                    </div>
+                    <span class="text-black/40 text-sm font-medium time-display">0:00 / 0:30</span>
+                    <div class="progress-bar" onclick="seek(event, 3)">
+                        <div class="progress-fill" id="progress-3"></div>
+                    </div>
+                    <audio id="audio-3" preload="metadata">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <!-- Track 4 -->
+                <div class="audio-player" data-track="4">
+                    <button class="play-btn" onclick="togglePlay(4)">
+                        <i data-lucide="play" class="w-5 h-5 play-icon"></i>
+                        <i data-lucide="pause" class="w-5 h-5 pause-icon hidden"></i>
+                    </button>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-3 mb-2">
+                            <span class="font-display text-black/40 text-sm font-bold w-6">04</span>
+                            <h4 class="font-tigrinya text-black text-lg font-medium truncate">ኣብ እግዚብሄር'ዪ ተሰፋይ</h4>
+                        </div>
+                        <p class="text-black/60 text-sm font-medium ml-9">I Trust in the Lord</p>
+                    </div>
+                    <span class="text-black/40 text-sm font-medium time-display">0:00 / 0:30</span>
+                    <div class="progress-bar" onclick="seek(event, 4)">
+                        <div class="progress-fill" id="progress-4"></div>
+                    </div>
+                    <audio id="audio-4" preload="metadata">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <!-- Track 5 -->
+                <div class="audio-player" data-track="5">
+                    <button class="play-btn" onclick="togglePlay(5)">
+                        <i data-lucide="play" class="w-5 h-5 play-icon"></i>
+                        <i data-lucide="pause" class="w-5 h-5 pause-icon hidden"></i>
+                    </button>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-3 mb-2">
+                            <span class="font-display text-black/40 text-sm font-bold w-6">05</span>
+                            <h4 class="font-tigrinya text-black text-lg font-medium truncate">ምሕረት ምሃረኒ</h4>
+                        </div>
+                        <p class="text-black/60 text-sm font-medium ml-9">Teach Me Mercy</p>
+                    </div>
+                    <span class="text-black/40 text-sm font-medium time-display">0:00 / 0:30</span>
+                    <div class="progress-bar" onclick="seek(event, 5)">
+                        <div class="progress-fill" id="progress-5"></div>
+                    </div>
+                    <audio id="audio-5" preload="metadata">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <!-- Track 6 -->
+                <div class="audio-player" data-track="6">
+                    <button class="play-btn" onclick="togglePlay(6)">
+                        <i data-lucide="play" class="w-5 h-5 play-icon"></i>
+                        <i data-lucide="pause" class="w-5 h-5 pause-icon hidden"></i>
+                    </button>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-3 mb-2">
+                            <span class="font-display text-black/40 text-sm font-bold w-6">06</span>
+                            <h4 class="font-tigrinya text-black text-lg font-medium truncate">እናፍቀካ ኣለኹ</h4>
+                        </div>
+                        <p class="text-black/60 text-sm font-medium ml-9">I Long for You</p>
+                    </div>
+                    <span class="text-black/40 text-sm font-medium time-display">0:00 / 0:30</span>
+                    <div class="progress-bar" onclick="seek(event, 6)">
+                        <div class="progress-fill" id="progress-6"></div>
+                    </div>
+                    <audio id="audio-6" preload="metadata">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <!-- Track 7 -->
+                <div class="audio-player" data-track="7">
+                    <button class="play-btn" onclick="togglePlay(7)">
+                        <i data-lucide="play" class="w-5 h-5 play-icon"></i>
+                        <i data-lucide="pause" class="w-5 h-5 pause-icon hidden"></i>
+                    </button>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-3 mb-2">
+                            <span class="font-display text-black/40 text-sm font-bold w-6">07</span>
+                            <h4 class="font-tigrinya text-black text-lg font-medium truncate">ምስክር'የ ኣነ</h4>
+                        </div>
+                        <p class="text-black/60 text-sm font-medium ml-9">I Am a Witness</p>
+                    </div>
+                    <span class="text-black/40 text-sm font-medium time-display">0:00 / 0:30</span>
+                    <div class="progress-bar" onclick="seek(event, 7)">
+                        <div class="progress-fill" id="progress-7"></div>
+                    </div>
+                    <audio id="audio-7" preload="metadata">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <!-- Track 8 -->
+                <div class="audio-player" data-track="8">
+                    <button class="play-btn" onclick="togglePlay(8)">
+                        <i data-lucide="play" class="w-5 h-5 play-icon"></i>
+                        <i data-lucide="pause" class="w-5 h-5 pause-icon hidden"></i>
+                    </button>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-3 mb-2">
+                            <span class="font-display text-black/40 text-sm font-bold w-6">08</span>
+                            <h4 class="font-tigrinya text-black text-lg font-medium truncate">ቅዱስ ቅብኢ</h4>
+                        </div>
+                        <p class="text-black/60 text-sm font-medium ml-9">Holy Anointing</p>
+                    </div>
+                    <span class="text-black/40 text-sm font-medium time-display">0:00 / 0:30</span>
+                    <div class="progress-bar" onclick="seek(event, 8)">
+                        <div class="progress-fill" id="progress-8"></div>
+                    </div>
+                    <audio id="audio-8" preload="metadata">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <!-- Track 9 -->
+                <div class="audio-player" data-track="9">
+                    <button class="play-btn" onclick="togglePlay(9)">
+                        <i data-lucide="play" class="w-5 h-5 play-icon"></i>
+                        <i data-lucide="pause" class="w-5 h-5 pause-icon hidden"></i>
+                    </button>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-3 mb-2">
+                            <span class="font-display text-black/40 text-sm font-bold w-6">09</span>
+                            <h4 class="font-tigrinya text-black text-lg font-medium truncate">ብርሃን ዝቕናታ</h4>
+                        </div>
+                        <p class="text-black/60 text-sm font-medium ml-9">The Light That Shines</p>
+                    </div>
+                    <span class="text-black/40 text-sm font-medium time-display">0:00 / 0:30</span>
+                    <div class="progress-bar" onclick="seek(event, 9)">
+                        <div class="progress-fill" id="progress-9"></div>
+                    </div>
+                    <audio id="audio-9" preload="metadata">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <!-- Track 10 -->
+                <div class="audio-player" data-track="10">
+                    <button class="play-btn" onclick="togglePlay(10)">
+                        <i data-lucide="play" class="w-5 h-5 play-icon"></i>
+                        <i data-lucide="pause" class="w-5 h-5 pause-icon hidden"></i>
+                    </button>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-3 mb-2">
+                            <span class="font-display text-black/40 text-sm font-bold w-6">10</span>
+                            <h4 class="font-tigrinya text-black text-lg font-medium truncate">ቅዱስ ዮሴፍ</h4>
+                        </div>
+                        <p class="text-black/60 text-sm font-medium ml-9">Saint Joseph</p>
+                    </div>
+                    <span class="text-black/40 text-sm font-medium time-display">0:00 / 0:30</span>
+                    <div class="progress-bar" onclick="seek(event, 10)">
+                        <div class="progress-fill" id="progress-10"></div>
+                    </div>
+                    <audio id="audio-10" preload="metadata">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <!-- Track 11 -->
+                <div class="audio-player" data-track="11">
+                    <button class="play-btn" onclick="togglePlay(11)">
+                        <i data-lucide="play" class="w-5 h-5 play-icon"></i>
+                        <i data-lucide="pause" class="w-5 h-5 pause-icon hidden"></i>
+                    </button>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-3 mb-2">
+                            <span class="font-display text-black/40 text-sm font-bold w-6">11</span>
+                            <h4 class="font-tigrinya text-black text-lg font-medium truncate">ኣቦ ኣሎኒ</h4>
+                        </div>
+                        <p class="text-black/60 text-sm font-medium ml-9">I Have a Father</p>
+                    </div>
+                    <span class="text-black/40 text-sm font-medium time-display">0:00 / 0:30</span>
+                    <div class="progress-bar" onclick="seek(event, 11)">
+                        <div class="progress-fill" id="progress-11"></div>
+                    </div>
+                    <audio id="audio-11" preload="metadata">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+            <div class="mt-8 text-center reveal">
+                <p class="text-black/50 text-sm font-medium">
+                    <i data-lucide="info" class="w-4 h-4 inline-block mr-1"></i>
+                    Sample audio provided for preview. Full tracks coming soon.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider my-16"></div>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 md:py-28 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <span class="inline-block px-5 py-2 mb-6 border-2 border-black/10 rounded-full bg-white/80">
+                    <span class="font-display text-black/60 text-xs tracking-[0.2em] uppercase font-semibold">Gallery</span>
+                </span>
+                <h2 class="font-display text-3xl sm:text-4xl md:text-5xl text-black font-bold mb-4">Moments of Faith</h2>
+                <p class="max-w-2xl mx-auto text-black/70 text-base md:text-lg font-medium">
+                    Capturing the spiritual journey, the choir, and the sacred atmosphere of Keren.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 reveal">
+                <div class="group relative aspect-square rounded-xl overflow-hidden cursor-pointer shadow-lg" onclick="openLightbox(0)">
+                    <img src="USB Card Front_1 FINAL3.jpg" alt="Album Cover" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div class="absolute inset-0 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <span class="text-white/70 text-xs uppercase tracking-wider font-semibold mb-2">Album Art</span>
+                        <h3 class="font-display text-white text-lg font-bold">Album Cover</h3>
+                    </div>
+                </div>
+
+                <div class="group relative aspect-square rounded-xl overflow-hidden cursor-pointer shadow-lg" onclick="openLightbox(1)">
+                    <img src="USB Card Back.jpg" alt="Choir Photo" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div class="absolute inset-0 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <span class="text-white/70 text-xs uppercase tracking-wider font-semibold mb-2">Choir</span>
+                        <h3 class="font-display text-white text-lg font-bold">St. Joseph La Salle Keren Choir</h3>
+                    </div>
+                </div>
+
+                <div class="group relative aspect-square rounded-xl overflow-hidden cursor-pointer shadow-lg" onclick="openLightbox(2)">
+                    <img src="ArtWork 500X500 pix.jpg" alt="Album Artwork" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div class="absolute inset-0 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <span class="text-white/70 text-xs uppercase tracking-wider font-semibold mb-2">Album Art</span>
+                        <h3 class="font-display text-white text-lg font-bold">Album Artwork Design</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <button class="absolute top-6 right-6 z-10 w-12 h-12 bg-white/20 rounded-full flex items-center justify-center hover:bg-white transition-colors" onclick="event.stopPropagation(); closeLightbox()">
+            <i data-lucide="x" class="w-6 h-6 text-white"></i>
+        </button>
+        <button class="absolute left-6 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white/20 rounded-full flex items-center justify-center hover:bg-white transition-colors" onclick="event.stopPropagation(); navigateLightbox(-1)">
+            <i data-lucide="chevron-left" class="w-6 h-6 text-white"></i>
+        </button>
+        <button class="absolute right-6 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white/20 rounded-full flex items-center justify-center hover:bg-white transition-colors" onclick="event.stopPropagation(); navigateLightbox(1)">
+            <i data-lucide="chevron-right" class="w-6 h-6 text-white"></i>
+        </button>
+        <div class="relative max-w-5xl max-h-[80vh] mx-auto px-20" onclick="event.stopPropagation()">
+            <img id="lightbox-img" src="" alt="" class="max-w-full max-h-[70vh] object-contain rounded-lg shadow-2xl">
+            <div class="absolute -bottom-16 left-1/2 -translate-x-1/2 text-center">
+                <span id="lightbox-category" class="text-white/70 text-sm uppercase tracking-wider font-semibold"></span>
+                <h3 id="lightbox-caption" class="font-display text-white text-xl font-bold mt-1"></h3>
+                <p id="lightbox-counter" class="text-white/50 text-sm mt-2 font-medium"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-divider my-16"></div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 md:py-28 relative">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <span class="inline-block px-5 py-2 mb-6 border-2 border-black/10 rounded-full bg-white/80">
+                    <span class="font-display text-black/60 text-xs tracking-[0.2em] uppercase font-semibold">Get in Touch</span>
+                </span>
+                <h2 class="font-display text-3xl sm:text-4xl md:text-5xl text-black font-bold mb-4">Contact Us</h2>
+                <p class="max-w-2xl mx-auto text-black/70 text-base md:text-lg font-medium">
+                    Have questions about the album or want to collaborate? We'd love to hear from you.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-20">
+                <div class="reveal">
+                    <form id="contact-form" class="space-y-6">
+                        <div class="p-8 bg-white rounded-2xl border-2 border-black/5 shadow-lg">
+                            <h3 class="font-display text-xl text-black font-bold mb-6 flex items-center gap-3">
+                                <i data-lucide="message-square" class="w-5 h-5 text-black"></i>
+                                Send a Message
+                            </h3>
+
+                            <div class="space-y-6">
+                                <div>
+                                    <label class="block text-black/70 text-sm font-semibold mb-2">Your Name</label>
+                                    <input type="text" name="name" required class="form-input" placeholder="Enter your name">
+                                </div>
+                                <div>
+                                    <label class="block text-black/70 text-sm font-semibold mb-2">Email Address</label>
+                                    <input type="email" name="email" required class="form-input" placeholder="Enter your email">
+                                </div>
+                                <div>
+                                    <label class="block text-black/70 text-sm font-semibold mb-2">Your Message</label>
+                                    <textarea name="message" required rows="5" class="form-input resize-none" placeholder="Write your message here..."></textarea>
+                                </div>
+                                <button type="submit" class="w-full flex items-center justify-center gap-3 px-8 py-4 bg-black text-white font-display font-semibold tracking-wide uppercase rounded-lg hover:bg-gold transition-all">
+                                    <i data-lucide="send" class="w-5 h-5"></i>
+                                    Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="reveal space-y-6">
+                    <div class="p-8 bg-white rounded-2xl border-2 border-black/5 shadow-lg">
+                        <h3 class="font-display text-xl text-black font-bold mb-6">Contact Information</h3>
+
+                        <div class="space-y-6">
+                            <a href="mailto:info@mezgebmezmur.com" class="flex items-start gap-4 group">
+                                <div class="w-12 h-12 rounded-lg bg-black/5 flex items-center justify-center flex-shrink-0 group-hover:bg-black transition-colors">
+                                    <i data-lucide="mail" class="w-5 h-5 text-black group-hover:text-white"></i>
+                                </div>
+                                <div>
+                                    <p class="text-black/50 text-sm font-semibold mb-1">Email</p>
+                                    <p class="text-black font-medium group-hover:text-gold transition-colors">info@mezgebmezmur.com</p>
+                                </div>
+                            </a>
+                            <a href="tel:+49XXXXXXXXX" class="flex items-start gap-4 group">
+                                <div class="w-12 h-12 rounded-lg bg-black/5 flex items-center justify-center flex-shrink-0 group-hover:bg-black transition-colors">
+                                    <i data-lucide="phone" class="w-5 h-5 text-black group-hover:text-white"></i>
+                                </div>
+                                <div>
+                                    <p class="text-black/50 text-sm font-semibold mb-1">Phone / WhatsApp</p>
+                                    <p class="text-black font-medium group-hover:text-gold transition-colors">+49 XXX XXX XXX</p>
+                                </div>
+                            </a>
+                            <a href="https://youtube.com" target="_blank" rel="noopener" class="flex items-start gap-4 group">
+                                <div class="w-12 h-12 rounded-lg bg-black/5 flex items-center justify-center flex-shrink-0 group-hover:bg-black transition-colors">
+                                    <i data-lucide="youtube" class="w-5 h-5 text-black group-hover:text-white"></i>
+                                </div>
+                                <div>
+                                    <p class="text-black/50 text-sm font-semibold mb-1">YouTube</p>
+                                    <p class="text-black font-medium group-hover:text-gold transition-colors">Mezgeb Mezmur</p>
+                                </div>
+                            </a>
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 rounded-lg bg-black/5 flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="map-pin" class="w-5 h-5 text-black"></i>
+                                </div>
+                                <div>
+                                    <p class="text-black/50 text-sm font-semibold mb-1">Location</p>
+                                    <p class="text-black font-medium">Keren, Eritrea</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-8 bg-white rounded-2xl border-2 border-black/5 shadow-lg">
+                        <h3 class="font-display text-xl text-black font-bold mb-6">Quick Links</h3>
+                        <div class="space-y-3">
+                            <a href="#tracks" class="block px-4 py-3 bg-cream rounded-lg text-black font-medium hover:text-gold hover:bg-gold/5 transition-all">Explore Track List</a>
+                            <a href="#gallery" class="block px-4 py-3 bg-cream rounded-lg text-black font-medium hover:text-gold hover:bg-gold/5 transition-all">View Gallery</a>
+                            <a href="#about" class="block px-4 py-3 bg-cream rounded-lg text-black font-medium hover:text-gold hover:bg-gold/5 transition-all">About the Album</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider my-16"></div>
+
+    <!-- About the Organization Section (Above Footer) -->
+    <section id="about-org" class="py-20 md:py-28 relative bg-cream-dark">
+        <div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-black/15 to-transparent"></div>
+        
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 reveal">
+                <span class="inline-block px-5 py-2 mb-6 border-2 border-black/10 rounded-full bg-white/80">
+                    <span class="font-display text-black/60 text-xs tracking-[0.2em] uppercase font-semibold">About This Website</span>
+                </span>
+                <h2 class="font-display text-3xl sm:text-4xl md:text-5xl text-black font-bold mb-4">Website Organized and Produced by Mezgeb Mezmur Volunteers</h2>
+            </div>
+
+            <div class="reveal mb-12">
+                <div class="bg-white rounded-2xl p-8 md:p-10 shadow-lg border-2 border-black/5">
+                    <p class="text-black/80 leading-relaxed font-medium text-lg mb-6">
+                        This website was created and organized by volunteers from <span class="text-black font-bold">Mezgeb Mezmur</span> to help share and preserve spiritual songs. The goal is to make these songs accessible to churches, choirs, and believers while supporting the long-term mission of preserving worship music.
+                    </p>
+                    <p class="text-black/80 leading-relaxed font-medium">
+                        The volunteers behind Mezgeb Mezmur have spent many years collecting, organizing, and documenting spiritual songs so they can be preserved for future generations.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 12 Years Highlight -->
+            <div class="reveal mb-12">
+                <div class="bg-black rounded-2xl p-8 text-center">
+                    <div class="w-20 h-20 rounded-full bg-white flex items-center justify-center mx-auto mb-4">
+                        <span class="font-display text-4xl text-black font-bold">12</span>
+                    </div>
+                    <h4 class="font-display text-2xl text-white font-bold mb-2">Years of Dedication</h4>
+                    <p class="text-white/70 font-medium">Our journey from a small volunteer effort to a growing digital archive.</p>
+                </div>
+            </div>
+
+            <!-- Mission & Vision Grid -->
+            <div class="grid md:grid-cols-2 gap-6 reveal">
+                <div class="bg-white rounded-2xl p-8 shadow-lg border-2 border-black/5">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-12 h-12 rounded-lg bg-black flex items-center justify-center">
+                            <i data-lucide="target" class="w-6 h-6 text-white"></i>
+                        </div>
+                        <h4 class="font-display text-xl text-black font-bold">Our Mission</h4>
+                    </div>
+                    <p class="text-black/70 font-medium mb-6">
+                        To preserve, organize, and make accessible spiritual songs for churches, choirs, and believers around the world.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3 text-black/70 font-medium">
+                            <i data-lucide="check" class="w-5 h-5 text-black"></i>
+                            Preserve spiritual songs and traditions
+                        </li>
+                        <li class="flex items-center gap-3 text-black/70 font-medium">
+                            <i data-lucide="check" class="w-5 h-5 text-black"></i>
+                            Support church choirs and worship teams
+                        </li>
+                        <li class="flex items-center gap-3 text-black/70 font-medium">
+                            <i data-lucide="check" class="w-5 h-5 text-black"></i>
+                            Organize lyrics and recordings
+                        </li>
+                        <li class="flex items-center gap-3 text-black/70 font-medium">
+                            <i data-lucide="check" class="w-5 h-5 text-black"></i>
+                            Build a structured digital archive
+                        </li>
+                        <li class="flex items-center gap-3 text-black/70 font-medium">
+                            <i data-lucide="check" class="w-5 h-5 text-black"></i>
+                            Encourage global collaboration
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-lg border-2 border-black/5">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-12 h-12 rounded-lg bg-black flex items-center justify-center">
+                            <i data-lucide="eye" class="w-6 h-6 text-white"></i>
+                        </div>
+                        <h4 class="font-display text-xl text-black font-bold">Our Vision</h4>
+                    </div>
+                    <p class="text-black/70 font-medium mb-6">
+                        A world where spiritual songs are preserved, organized, and easily accessible for all believers.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3 text-black/70 font-medium">
+                            <i data-lucide="check" class="w-5 h-5 text-black"></i>
+                            Create a trusted central archive
+                        </li>
+                        <li class="flex items-center gap-3 text-black/70 font-medium">
+                            <i data-lucide="check" class="w-5 h-5 text-black"></i>
+                            Connect believers globally through music
+                        </li>
+                        <li class="flex items-center gap-3 text-black/70 font-medium">
+                            <i data-lucide="check" class="w-5 h-5 text-black"></i>
+                            Ensure no song is lost to time
+                        </li>
+                        <li class="flex items-center gap-3 text-black/70 font-medium">
+                            <i data-lucide="check" class="w-5 h-5 text-black"></i>
+                            Support worship in every church
+                        </li>
+                        <li class="flex items-center gap-3 text-black/70 font-medium">
+                            <i data-lucide="check" class="w-5 h-5 text-black"></i>
+                            Inspire future generations
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Mezgeb Mezmur Story -->
+            <div class="reveal mt-12">
+                <div class="bg-white rounded-2xl p-8 md:p-10 shadow-lg border-2 border-black/5">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-14 h-14 rounded-xl bg-black flex items-center justify-center">
+                            <i data-lucide="book-open" class="w-7 h-7 text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-display text-2xl text-black font-bold">Mezgeb Mezmur Story</h3>
+                            <p class="text-black/50 text-sm font-medium">Since 2013</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4 text-black/80 leading-relaxed font-medium">
+                        <p>
+                            Mezgeb Mezmur began in <span class="text-black font-bold">2013</span> when a small group of volunteers recognized a growing concern: many beautiful spiritual songs were at risk of being lost forever. These songs, passed down through generations in churches and communities, existed only in memory or scattered handwritten notes.
+                        </p>
+                        <p>
+                            What started as a humble effort to collect and document these songs has grown into a comprehensive mission. Over the past <span class="text-black font-bold">12 years</span>, our volunteer network has expanded across regions, bringing together people who share a passion for preserving spiritual heritage.
+                        </p>
+                        <p>
+                            Today, Mezgeb Mezmur stands as a testament to what dedicated volunteers can achieve. We've collected thousands of songs, built relationships with churches and choir leaders, and laid the groundwork for a digital platform that will make these resources accessible to believers worldwide.
+                        </p>
+                        <p class="font-serif italic text-black/70">
+                            "Our journey continues, and we invite you to be part of this meaningful mission."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider my-16"></div>
+
+    <!-- Footer -->
+    <footer class="relative pt-20 pb-8">
+        <div class="absolute inset-0 bg-gradient-to-b from-cream to-cream-dark"></div>
+        <div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-black/15 to-transparent"></div>
+
+        <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-12 mb-16">
+                <div class="text-center md:text-left">
+                    <div class="flex items-center justify-center md:justify-start gap-3 mb-6">
+                        <div class="w-12 h-12 rounded-full border-2 border-black/20 flex items-center justify-center">
+                            <i data-lucide="music" class="w-6 h-6 text-black"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-display text-black text-lg font-bold">I Trust in the Lord</h3>
+                            <p class="text-black/50 text-xs font-medium">Spiritual Album</p>
+                        </div>
+                    </div>
+
+                    <p class="text-black/60 text-sm mb-6 max-w-xs mx-auto md:mx-0 font-medium">
+                        A spiritual music album by the St. Joseph La Salle Keren Choir, sharing faith and devotion through sacred songs.
+                    </p>
+
+                    <div class="flex justify-center md:justify-start gap-3">
+                        <a href="https://youtube.com" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-black/5 flex items-center justify-center text-black hover:bg-black hover:text-white transition-all" aria-label="YouTube">
+                            <i data-lucide="youtube" class="w-5 h-5"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-black/5 flex items-center justify-center text-black hover:bg-black hover:text-white transition-all" aria-label="Instagram">
+                            <i data-lucide="instagram" class="w-5 h-5"></i>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-black/5 flex items-center justify-center text-black hover:bg-black hover:text-white transition-all" aria-label="Facebook">
+                            <i data-lucide="facebook" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <h4 class="font-display text-black text-sm tracking-wider uppercase font-bold mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#hero" class="text-black/60 hover:text-black transition-colors text-sm font-medium">Home</a></li>
+                        <li><a href="#trailer" class="text-black/60 hover:text-black transition-colors text-sm font-medium">Trailer</a></li>
+                        <li><a href="#about" class="text-black/60 hover:text-black transition-colors text-sm font-medium">About</a></li>
+                        <li><a href="#choir" class="text-black/60 hover:text-black transition-colors text-sm font-medium">Choir</a></li>
+                        <li><a href="#tracks" class="text-black/60 hover:text-black transition-colors text-sm font-medium">Tracks</a></li>
+                        <li><a href="#gallery" class="text-black/60 hover:text-black transition-colors text-sm font-medium">Gallery</a></li>
+                        <li><a href="#contact" class="text-black/60 hover:text-black transition-colors text-sm font-medium">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="text-center md:text-right">
+                    <h4 class="font-display text-black text-sm tracking-wider uppercase font-bold mb-6">Album Info</h4>
+                    
+                    <div class="space-y-4">
+                        <div>
+                            <p class="font-tigrinya text-black text-xl font-medium">ኣብ እግዚብሄር'ዪ ተሰፋይ</p>
+                            <p class="text-black/60 text-sm font-medium">I Trust in the Lord</p>
+                        </div>
+
+                        <div>
+                            <p class="text-black/40 text-xs uppercase tracking-wider font-semibold mb-1">Choir</p>
+                            <p class="text-black text-sm font-medium">St. Joseph La Salle Keren Choir</p>
+                            <p class="font-tigrinya text-black/60 text-sm">ብላሰላውያን መዘምራን ቅዱስ ዮሴፍ ከረን</p>
+                        </div>
+
+                        <div>
+                            <p class="text-black/40 text-xs uppercase tracking-wider font-semibold mb-1">Volume</p>
+                            <p class="text-black text-sm font-bold">Vol. #2 — 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full h-px bg-gradient-to-r from-transparent via-black/10 to-transparent mb-8"></div>
+
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                <div class="text-center md:text-left">
+                    <p class="text-black/50 text-sm font-medium">
+                        Website organized and produced by <span class="text-black font-semibold">Mezgeb Mezmur</span>
+                    </p>
+                    <p class="text-black/30 text-xs mt-1 font-medium">© 2026 All rights reserved.</p>
+                </div>
+
+                <div class="flex items-center gap-2 text-black/50 text-sm font-medium">
+                    <span>Made with</span>
+                    <i data-lucide="heart" class="w-4 h-4 text-red-500 fill-red-500"></i>
+                    <span>for the glory of God</span>
+                </div>
+
+                <button onclick="scrollToTop()" class="w-10 h-10 rounded-full bg-black/5 flex items-center justify-center text-black hover:bg-black hover:text-white transition-all" aria-label="Back to top">
+                    <i data-lucide="arrow-up" class="w-5 h-5"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast">
+        <div class="bg-black text-white px-6 py-4 rounded-lg shadow-xl flex items-center gap-3">
+            <i data-lucide="check-circle" class="w-5 h-5 text-gold"></i>
+            <span id="toast-message" class="font-medium">Message sent successfully!</span>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Initialize Lucide Icons
+        document.addEventListener('DOMContentLoaded', function() {
+            lucide.createIcons();
+            
+            setTimeout(function() {
+                document.getElementById('loading-screen').style.opacity = '0';
+                setTimeout(function() {
+                    document.getElementById('loading-screen').style.display = 'none';
+                    revealElements();
+                }, 500);
+            }, 1500);
+        });
+
+        // Navigation scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('nav-scrolled');
+            } else {
+                navbar.classList.remove('nav-scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.add('active');
+        });
+
+        document.getElementById('menu-close').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.remove('active');
+        });
+
+        document.querySelectorAll('.mobile-nav-link').forEach(function(link) {
+            link.addEventListener('click', function() {
+                document.getElementById('mobile-menu').classList.remove('active');
+            });
+        });
+
+        // Video Modal Functions
+        function openVideoModal() {
+            const modal = document.getElementById('video-modal');
+            const player = document.getElementById('youtube-player');
+            player.src = 'https://www.youtube.com/embed/6qmvGWTEJ1g?si=bHF8IKr-TOb6TlWN';
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeVideoModal() {
+            const modal = document.getElementById('video-modal');
+            const player = document.getElementById('youtube-player');
+            player.src = '';
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // Close video modal on escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeVideoModal();
+            }
+        });
+
+        // Audio Player Functions
+        let currentPlaying = null;
+        let currentAudio = null;
+
+        function togglePlay(trackNum) {
+            const audio = document.getElementById('audio-' + trackNum);
+            const player = document.querySelector('.audio-player[data-track="' + trackNum + '"]');
+            const playIcon = player.querySelector('.play-icon');
+            const pauseIcon = player.querySelector('.pause-icon');
+            const playBtn = player.querySelector('.play-btn');
+
+            if (currentPlaying && currentPlaying !== trackNum) {
+                const prevAudio = document.getElementById('audio-' + currentPlaying);
+                const prevPlayer = document.querySelector('.audio-player[data-track="' + currentPlaying + '"]');
+                prevAudio.pause();
+                prevAudio.currentTime = 0;
+                prevPlayer.querySelector('.play-icon').classList.remove('hidden');
+                prevPlayer.querySelector('.pause-icon').classList.add('hidden');
+                prevPlayer.querySelector('.play-btn').classList.remove('playing');
+            }
+
+            if (audio.paused) {
+                audio.play();
+                playIcon.classList.add('hidden');
+                pauseIcon.classList.remove('hidden');
+                playBtn.classList.add('playing');
+                currentPlaying = trackNum;
+                currentAudio = audio;
+            } else {
+                audio.pause();
+                playIcon.classList.remove('hidden');
+                pauseIcon.classList.add('hidden');
+                playBtn.classList.remove('playing');
+                currentPlaying = null;
+                currentAudio = null;
+            }
+        }
+
+        function seek(event, trackNum) {
+            const audio = document.getElementById('audio-' + trackNum);
+            const progressBar = event.currentTarget;
+            const clickPosition = event.offsetX / progressBar.offsetWidth;
+            audio.currentTime = clickPosition * audio.duration;
+        }
+
+        function formatTime(seconds) {
+            const mins = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return mins + ':' + (secs < 10 ? '0' : '') + secs;
+        }
+
+        for (let i = 1; i <= 11; i++) {
+            const audio = document.getElementById('audio-' + i);
+            if (audio) {
+                audio.addEventListener('timeupdate', function() {
+                    const progress = (audio.currentTime / audio.duration) * 100;
+                    document.getElementById('progress-' + i).style.width = progress + '%';
+                    
+                    const player = document.querySelector('.audio-player[data-track="' + i + '"]');
+                    const timeDisplay = player.querySelector('.time-display');
+                    timeDisplay.textContent = formatTime(audio.currentTime) + ' / ' + formatTime(audio.duration || 0);
+                });
+
+                audio.addEventListener('ended', function() {
+                    const player = document.querySelector('.audio-player[data-track="' + i + '"]');
+                    player.querySelector('.play-icon').classList.remove('hidden');
+                    player.querySelector('.pause-icon').classList.add('hidden');
+                    player.querySelector('.play-btn').classList.remove('playing');
+                    document.getElementById('progress-' + i).style.width = '0%';
+                    currentPlaying = null;
+                });
+            }
+        }
+
+        // Lightbox functionality
+        const galleryImages = [
+            { src: 'USB Card Front_1 FINAL3.jpg', caption: 'Album Cover', category: 'Album Art' },
+            { src: 'USB Card Back.jpg', caption: 'St. Joseph La Salle Keren Choir', category: 'Choir' },
+            { src: 'ArtWork 500X500 pix.jpg', caption: 'Album Artwork Design', category: 'Album Art' }
+        ];
+
+        let currentImageIndex = 0;
+
+        function openLightbox(index) {
+            currentImageIndex = index;
+            updateLightbox();
+            document.getElementById('lightbox').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        function navigateLightbox(direction) {
+            currentImageIndex += direction;
+            if (currentImageIndex < 0) currentImageIndex = galleryImages.length - 1;
+            if (currentImageIndex >= galleryImages.length) currentImageIndex = 0;
+            updateLightbox();
+        }
+
+        function updateLightbox() {
+            const img = galleryImages[currentImageIndex];
+            document.getElementById('lightbox-img').src = img.src;
+            document.getElementById('lightbox-caption').textContent = img.caption;
+            document.getElementById('lightbox-category').textContent = img.category;
+            document.getElementById('lightbox-counter').textContent = (currentImageIndex + 1) + ' / ' + galleryImages.length;
+        }
+
+        document.addEventListener('keydown', function(e) {
+            if (!document.getElementById('lightbox').classList.contains('active')) return;
+            if (e.key === 'Escape') closeLightbox();
+            if (e.key === 'ArrowLeft') navigateLightbox(-1);
+            if (e.key === 'ArrowRight') navigateLightbox(1);
+        });
+
+        // Contact form submission
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            showToast('Message sent successfully! We will get back to you soon.');
+            this.reset();
+        });
+
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            document.getElementById('toast-message').textContent = message;
+            toast.style.display = 'block';
+            setTimeout(function() {
+                toast.style.display = 'none';
+            }, 4000);
+        }
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Reveal animations
+        function revealElements() {
+            const reveals = document.querySelectorAll('.reveal');
+            
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+            reveals.forEach(function(reveal) {
+                observer.observe(reveal);
+            });
+        }
+
+        window.addEventListener('load', revealElements);
+    </script>
+</body>
+</html>
